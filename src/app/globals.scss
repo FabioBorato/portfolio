@@ -1,0 +1,64 @@
+:root {
+    @keyframes degrade-animado {
+        0%{
+            background-position-x: 0%;
+        }
+        100%{
+            background-position-x: 100%;
+        }
+    }
+
+    $degrade-body-colors: #df40ff, #b8fffb, #df40ff;
+
+    .text-degrade {
+        font-family: sans-serif;
+        background-image: linear-gradient(to left, $degrade-body-colors);
+        background-size: 500% 100%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: degrade-animado 15s infinite alternate;
+    }
+        
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+
+.degrade-body {
+    width: 100%;
+    padding: 300px 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-image: linear-gradient(to left, #df40ff, #b8fffb, #df40ff);
+    background-size: 500% 100%;
+    animation: degrade-animado 15s infinite alternate;
+
+}
+
+
+
+
+
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow-x: hidden;
+}
+
+.box{
+    margin-top: -13rem;
+    margin-bottom: -13rem;
+    width: 75vw;
+    height: max-content;
+    border-radius: 1rem;
+    background-color: #fcfcfc;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.219);
+}

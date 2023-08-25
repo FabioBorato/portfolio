@@ -1,0 +1,27 @@
+.social {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    
+    a {
+        height: 45px;
+        width: 45px;
+        background-color: #e7d4eb;
+        border-radius: 100%;
+        cursor: pointer;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media (min-width: 768px) {
+
+        a{
+            height: 35px;
+            width: 35px;
+        }
+
+        
+    }
+}
