@@ -1,39 +1,40 @@
-import "../scss/globals.scss"
+import "./carreira.scss"
 import Image from "next/image";
-import localImage from "../../public/img1.svg";
-import perfilImage from "../../public/img2.svg";
-import img3 from "../../public/img3.svg";
-import img4 from "../../public/img4.svg";
-import img5 from "../../public/img5.svg";
-import img6 from "../../public/img6.svg";
-import img7 from "../../public/img7.svg";
-import img8 from "../../public/img8.svg";
-import img9 from "../../public/img9.svg";
-import img10 from "../../public/img10.svg";
-import img11 from "../../public/img11.svg";
-import img12 from "../../public/img12.svg";
-import img13 from "../../public/img13.svg";
-import img14 from "../../public/img14.svg";
-import img15 from "../../public/img15.svg";
-import img16 from "../../public/img16.svg";
-import img17 from "../../public/img17.svg";
-import img18 from "../../public/img18.svg";
-import img19 from "../../public/img19.svg";
-import img20 from "../../public/img20.svg";
-import img21 from "../../public/img21.svg";
-import img22 from "../../public/img22.svg";
-import img23 from "../../public/img23.svg";
-import img24 from "../../public/img24.svg";
-import img25 from "../../public/img25.svg";
-import img26 from "../../public/img26.svg";
-import img27 from "../../public/img27.svg";
-import img28 from "../../public/img28.svg";
+import Link from "next/link";
+import localImage from "../../../public/img1.svg";
+import perfilImage from "../../../public/img2.svg";
+import img3 from "../../../public/img3.svg";
+import img4 from "../../../public/img4.svg";
+import img5 from "../../../public/img5.svg";
+import img6 from "../../../public/img6.svg";
+import img7 from "../../../public/img7.svg";
+import img8 from "../../../public/img8.svg";
+import img9 from "../../../public/img9.svg";
+import img10 from "../../../public/img10.svg";
+import img11 from "../../../public/img11.svg";
+import img12 from "../../../public/img12.svg";
+import img13 from "../../../public/img13.svg";
+import img14 from "../../../public/img14.svg";
+import img15 from "../../../public/img15.svg";
+import img16 from "../../../public/img16.svg";
+import img17 from "../../../public/img17.svg";
+import img18 from "../../../public/img18.svg";
+import img19 from "../../../public/img19.svg";
+import img20 from "../../../public/img20.svg";
+import img21 from "../../../public/img21.svg";
+import img22 from "../../../public/img22.svg";
+import img23 from "../../../public/img23.svg";
+import img24 from "../../../public/img24.svg";
+import img25 from "../../../public/img25.svg";
+import img26 from "../../../public/img26.svg";
+import img27 from "../../../public/img27.svg";
+import img28 from "../../../public/img28.svg";
 
 
-export default function Home() {
+export default function Carreira() {
   return (
     <main>
-      <div>
+      <div className="margin">
 
         <div className="template-1 box-container-2">
           <div className="img-center fluctuation-animated">
@@ -482,6 +483,18 @@ export default function Home() {
 
         </div>
 
+        <div className="flex">
+          <div className="btn">
+            <Link className="text-degrade " href='../'>
+              Voltar para home
+            </Link>
+          </div>
+          
+        </div>
+        
+
+        <div className="template-1 box-container-2">
+        </div>
       </div>
     </main>
   )

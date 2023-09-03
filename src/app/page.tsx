@@ -1,10 +1,8 @@
 import { Header } from './components/header/header'
 import { Info } from './components/information/information'
 import "./styles/home.scss"
-import { EmailIcon } from './components/icons/email-icon'
-import { SocialBtns } from './components/social-btns/social-btns'
 import { About } from "./components/about/about";
-
+import { Webskills } from './components/webskills/Main'
 
 
 export default function Home() {
@@ -17,18 +15,17 @@ export default function Home() {
           <div className='h-position'>
             <Header/>   
           </div>
-          <div className='a-position'>
-            <About/>
-          </div>
           <div className='i-position'>
             <Info/>
           </div>
-          <div>
+          <div className='a-position'>
+            <About/>
+          </div>
+          <div className='w-position'>
+            <Webskills/>
           </div>
 
         </div>
-
-        
 
       </div>
     </main>

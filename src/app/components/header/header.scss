@@ -9,7 +9,6 @@
         font-weight: 700;
         font-size: 28px;
         line-height: 42px;
-        color: var(--text-primary);
     }
 
     h2 {
@@ -17,7 +16,6 @@
         font-weight: 400;
         font-size: 20px;
         line-height: 30px;
-        color: var(--text-secondary);
     }
 
     @media (min-width: 768px) {
@@ -27,6 +25,7 @@
         grid-template-rows: 15rem 15rem;
         align-items: center;
         margin-top: -4rem;
+        margin-bottom: -4rem;
 
 
         .image-position{

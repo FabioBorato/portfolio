@@ -6,8 +6,9 @@
     a {
         height: 45px;
         width: 45px;
-        background-color: #e7d4eb;
+        background-color: #e1d4eb;
         border-radius: 100%;
+        color: rgb(255, 255, 255);
         cursor: pointer;
 
         display: flex;
@@ -18,8 +19,8 @@
     @media (min-width: 768px) {
 
         a{
-            height: 35px;
-            width: 35px;
+            height: 40px;
+            width: 40px;
         }
 
         

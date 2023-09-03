@@ -1,19 +1,19 @@
-import React from 'react';
-import "./box.scss";
-const FerrBack: React.FC = () => {
+import { SiDocker, SiInsomnia, SiGithub, SiEslint, SiPrettier, SiVisualstudiocode } from 'react-icons/si'; // Importe os ícones da biblioteca Simple Icons
+import "./Box.scss";
+export function FerrBack(){
   return (
-    <div className="block">
-                <div>
-                    <h2>Ferramentas Back-end:</h2>
-                    <p>Docker (Contêineres)</p>
-                    <p>Insomnia (Cliente REST)</p>
-                    <p>Git (Controle de Versão)</p>
-                    <p>ESLint (Análise de Código)</p>
-                    <p>Prettier (Formatação de Código)</p>
-                    <p>Visual Studio Code (Editor de Código)</p>
-                </div>
+    <div>
+      <a className='flex-box'>
+        <h2>Ferramentas Back-end:</h2>
+      </a>
+      <div className='align-flex'>
+        <p><SiDocker color="#0DB7ED" /> Docker</p>
+        <p><SiInsomnia color="#5849BE" /> Insomnia</p>
+        <p><SiGithub color="#181717" /> Git & GitHub</p>
+        <p><SiEslint color="#4B32C3" /> ESLint</p>
+        <p><SiPrettier color="#F7B93E" /> Prettier</p>
+        <p><SiVisualstudiocode color="#007ACC" /> Visual Studio Code</p>
+      </div>
     </div>
   );
 };
-
-export default FerrBack;

@@ -1,24 +1,25 @@
 import './Box.scss';
 
-import Linguagens from './Frameworks';
-import FrameWorks from './FerrFront';
-import Arqt from './Arquitetura.jsx';
-import TechFront from './TechBack';
-import TechBack from './Linguagens';
-import FerrFront from './FerrBack.jsx';
-import FerrBack from './FerrBack.jsx';
+import {Linguagens}  from './Linguagens';
+import { FrameWorks } from './Frameworks';
+import { Arqt } from './Arquitetura';
+import { TechFront } from './TechFront';
+import { TechBack } from './TechBack';
+import { FerrFront } from './FerrFront';
+import { FerrBack } from './FerrBack';
+
 
 export function Webskills (){
     return(
-        <div className='formate'>
+        <div className='grid'>
 
-            <div><Linguagens/></div>
-            <div><FrameWorks/></div>
-            <div><Arqt/></div>
-            <div><TechFront/></div>
-            <div><TechBack/></div>
-            <div><FerrFront/></div>
-            <div><FerrBack/></div>
+            <div className='ling-r1'><Linguagens/></div>
+            <div className='frmwrk-r1'><FrameWorks/></div>
+            <div className='arqt-r1'><Arqt/></div>
+            <div className='TF-r2'><TechFront/></div>
+            <div className='TB-r2'><TechBack/></div>
+            <div className='FF-r3'><FerrFront/></div>
+            <div className='FB-r3'><FerrBack/></div>
 
         </div>
     )

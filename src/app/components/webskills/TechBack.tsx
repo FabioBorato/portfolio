@@ -1,19 +1,20 @@
-import React from 'react';
-import "./box.scss";
-const TechBack: React.FC = () => {
+import "./Box.scss";
+import { SiNodedotjs, SiExpress, SiMongodb, SiMariadb, SiMysql } from 'react-icons/si'; // Importe os ícones da biblioteca Simple Icons
+
+
+export function TechBack () {
   return (
-    <div className="block">
-                <div>
-                    <h2>Tecnologias Back-end:</h2>
-                    <p>Express (Framework para Node.js)</p>
-                    <p>MongoDB</p>
-                    <p>MariaDB</p>
-                    <p>MySQL</p>
-                    <p>Axios (Requisições HTTP)</p>
-                    <p>Regex (Expressões Regulares)</p>
-                </div>
+    <div>
+      <a className="flex-box">
+        <h2>Tecnologias Back-end</h2>
+      </a>
+      <div className="align-flex">
+        <p><SiNodedotjs color="#68a063" /> Node.js</p>
+        <p><SiMongodb color="#68a063" /> MongoDB</p>
+        <p><SiMariadb color="#6371a0" /> MariaDB</p>
+        <p><SiMysql color="#ec9e27" /> MySQL</p>
+        <p><SiExpress color="#353535" /> Express</p>
+      </div>
     </div>
   );
 };
-
-export default TechBack;

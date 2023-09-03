@@ -1,19 +1,21 @@
-import React from 'react';
-import "./box.scss";
-const TechFront: React.FC = () => {
+import "./Box.scss";
+import { FaJs, FaLaptopCode, FaProjectDiagram, FaObjectGroup } from 'react-icons/fa'; // Importe os ícones que deseja usar
+
+export function TechFront() {
   return (
-    <div className="block">
-                <div>
-                    <h2>Tecnologias Front-end:</h2>
-                    <p>Core JS (Biblioteca de recursos modernos para JavaScript)</p>
-                    <p>ES6 Modules (Módulos ES6)</p>
-                    <p>Redux (Gerenciamento de Estado)</p>
-                    <p>Redux Saga (Gerenciamento de Efeitos Colaterais)</p>
-                    <p>Axios (Requisições HTTP)</p>
-                    <p>Regex (Expressões Regulares)</p>
-                </div>
+    <div className="center">
+      <a className='flex-box'>
+        <h2>Tecnologias Front-end</h2>
+      </a>
+      <div className='align-flex'>
+        <p><FaJs color="#f0db4f" /> Core JS</p>
+        <p><FaJs color="#f0db4f" /> ES6 Modules</p>
+        <p><FaJs color="#f0db4f" /> Regex</p>
+        <p><FaProjectDiagram color="#8400ff" /> Redux Saga</p>
+        <p><FaObjectGroup color="#8400ff" /> Axios</p>
+        <p><FaLaptopCode color="#f0db4f" /> Regex</p>
+      </div>
     </div>
   );
 };
 
-export default TechFront;

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import ProfileImg from '../../../../public/Novo Projeto (1).png'
 import "./header.scss"
-import { EmailIcon } from '../icons/email-icon'
+import { FaEnvelope } from 'react-icons/fa';
 import { SocialBtns } from '../social-btns/social-btns'
 export function Header(){
   return(
@@ -26,7 +26,7 @@ export function Header(){
           <SocialBtns/>
           <a className="btn-primary degrade-animado" href="mailto:fabioborato@gmail.com">
             entrar em contato
-            <EmailIcon/>
+            <FaEnvelope/>
           </a>
         </div>
 
