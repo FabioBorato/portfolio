@@ -15,7 +15,6 @@ $degrade-body-colors: #df40ff, #b8fffb, #df40ff;
     "about"
     "content"
     "webskills";
-    background-color: #b8fffb;
 }
 
 
@@ -118,7 +117,7 @@ $degrade-body-colors: #df40ff, #b8fffb, #df40ff;
 
 .box{
     display: flexbox;
-    width: 90vw;
+    width: 88vw;
     height: auto;
     background-color: #fafafa;
     box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.219);
@@ -127,4 +126,10 @@ $degrade-body-colors: #df40ff, #b8fffb, #df40ff;
     border-radius: 1rem;  
     margin-bottom: 10rem;
 
+}
+
+@media (min-width:768px){
+    .box{
+        width: 85vw;
+    }
 }

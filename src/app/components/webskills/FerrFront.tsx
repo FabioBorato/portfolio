@@ -7,7 +7,7 @@ export function FerrFront () {
   return (
     <div>
       <a className='flex-box'>
-        <h2>Ferramentas Front-end:</h2>
+        <h2>Ferramentas Front-end</h2>
       </a>
       <div className='align-flex'>
         <p><SiJest color="#CD6799" /> Jest</p>

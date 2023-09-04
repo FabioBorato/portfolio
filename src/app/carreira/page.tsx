@@ -42,31 +42,31 @@ export default function Carreira() {
               className="fluctuation-animated"
               src={localImage}
               alt="Next.js Logo"
-              width={250}
-              height={250}
+              width={220}
+              height={220}
             />
           </div>
 
           <div className="head-title">
-            <h1>“SE VOCÊ QUER CHEGAR AONDE A MAIORIA NÃO 
+            <h1 className="h1-style">“SE VOCÊ QUER CHEGAR AONDE A MAIORIA NÃO 
               CHEGA, FAÇA O QUE A MAIORIA NÃO FAZ.”</h1>
-            <h3>- Bill Gates</h3>
+            <h3 className="h3-style">- Bill Gates</h3>
           </div>
         </div>
 
 
 
-        <div className="box-2 box-container">
+        <div className="box-1 box-container">
 
           <div className="row-box t1-text">
             <h2 className="text-degrade">Olá, meu nome é Fábio!</h2>
           </div>
-          <div className="col-2-content-l center">
-            <p className="content-align"><strong> Talvez eu tenha algo que possa te ajudar!</strong> <br/><br/>
+          <div className="content">
+            <p><strong> Talvez eu tenha algo que possa te ajudar!</strong> <br/><br/>
               Se você está buscando compreender o meu perfil profissional, eu tenho algo para você, deixei abaixo selecionado algumas das mais importantes experiências e conquistas que obtive durante a minha jornada profissional, das quais me trouxeram para o setor Tech nos dias de hoje, desta forma conseguirá verificar se ele vai de encontro a solucionar as suas atuais necessidades.
             </p>
           </div>
-          <div className="col-2-image-r center">
+          <div className="img-content">
             <Image 
               src={perfilImage}
               alt="Next.js Logo"
@@ -94,8 +94,8 @@ export default function Carreira() {
             <Image 
               src={img3}
               alt="Next.js Logo"
-              width={250}
-              height={250}
+              width={220}
+              height={220}
             />
           </div>
           <div className="content">
@@ -107,8 +107,8 @@ export default function Carreira() {
             <Image 
               src={img4}
               alt="Next.js Logo"
-              width={250}
-              height={250}
+              width={220}
+              height={220}
             />
           </div>
 
@@ -128,8 +128,8 @@ export default function Carreira() {
                   className="img-shadow"
                   src={img5}
                   alt="Next.js Logo"
-                  width={150}
-                  height={150}
+                  width={220}
+                  height={220}
                 />
               </a>
               - A arquitetura e a engenharia trabalham com casas e ambientes, mas isso não se conecta com a psicologia, então acho que não sei o que pode ser.<br/><br/>
@@ -140,8 +140,8 @@ export default function Carreira() {
                   className="img-shadow"
                   src={img6}
                   alt="Next.js Logo"
-                  width={250}
-                  height={250}
+                  width={220}
+                  height={220}
                 />
               </a>
               Eu confesso que ainda assim aquilo não tinha feito tanto sentido na minha cabeça, levou um certo tempo para que eu pudesse compreender de fato o que ele disse, pois somente nos dias de hoje eu consigo olhar para trás e reconhecer que estou no caminho certo, fazendo o que me faz feliz. As minhas experiências e conquistas giram em torno de aplicar a transformação nas coisas ao meu redor, foi entendendo isso que eu pude me apaixonar pelo setor Tech, quando eu compreendi que através das tecnologias eu poderia impactar a vida de milhares de pessoas e ajudar empresas a atingirem os seus objetivos.<br/><br/>
@@ -150,8 +150,8 @@ export default function Carreira() {
                   className="img-shadow"
                   src={img7}
                   alt="Next.js Logo"
-                  width={280}
-                  height={280}
+                  width={220}
+                  height={220}
                 />
               </a>
 
@@ -172,8 +172,8 @@ export default function Carreira() {
                   <Image 
                     src={img8}
                     alt="Next.js Logo"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
               Em novembro recebi uma proposta de uma das minhas irmãs, ela tinha aberto uma empresa de decoração de eventos e precisava de ajuda, então comecei por ali, ajudando ela a carregar os materiais de decoração e fazer arranjos de flores para os eventos. Confesso que de certa forma eu me sentia realizado, pois na verdade nós não fazíamos apenas a decoração, o nosso trabalho estava pautado em transformar o ambiente para que as pessoas pudessem ter boas lembranças, fazendo com que casamentos e aniversários se tornassem momentos inesquecíveis. 
@@ -181,8 +181,8 @@ export default function Carreira() {
                   <Image 
                     src={img9}
                     alt="Next.js Logo"
-                    width={200}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
             </p>
@@ -202,8 +202,8 @@ export default function Carreira() {
                 <Image 
                   src={img10}
                   alt="Next.js Logo"
-                  width={250}
-                  height={250}
+                  width={220}
+                  height={220}
                 />
               </a>
             </p>
@@ -223,8 +223,8 @@ export default function Carreira() {
                   <Image 
                     src={img11}
                     alt="Next.js Logo"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
               Aplicamos o que tinha estudado durante esse período e conseguimos obter um resultado relevante através de criação de conteúdo, tivemos um aumento bem considerável logo no primeiro mês, as mídias sociais tiveram um crescimento de 35% no público e aumentaram as solicitações de orçamento em média de 40%, mas por motivos pessoais a minha irmã optou por encerrar a operação e seguir outro caminho.
@@ -232,8 +232,8 @@ export default function Carreira() {
                   <Image 
                     src={img12}
                     alt="Next.js Logo"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
 
@@ -254,8 +254,8 @@ export default function Carreira() {
                   <Image 
                     src={img13}
                     alt="Next.js Logo"
-                    width={200}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
               Mais tarde, eu consegui uma vaga de auxiliar de E-Commerce na The World Rodas, sua operação consistia em vender rodas e pneus através do Mercado livre. Nós transformamos os anúncios através de técnicas de SEO(Serch Engine Optimization), nossa missão principal era colocar os nossos anúncios entre os 3 primeiros em todos os segmentos, desta forma garantimos uma boa demanda para a loja através de um posicionamento estratégico. Dentre essas atividades eu também realizava o atendimento ao cliente no presencial, emissão de ordens de serviço e atualização mensal dos preços.
@@ -263,8 +263,8 @@ export default function Carreira() {
                   <Image 
                     src={img14}
                     alt="Next.js Logo"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
             </p>
@@ -285,8 +285,8 @@ export default function Carreira() {
                 <Image 
                   src={img15}
                   alt="Next.js Logo"
-                  width={250}
-                  height={250}
+                  width={220}
+                  height={220}
                 />
               </a>
               Mais tarde, quando a tempestade passou, eu voltei a procurar por uma oportunidade que pudesse aprender mais, só que desta vez a minha procura estava no setor logístico, já que um dos meus sonhos era ter um e-commerce, então era importante saber sobre como funcionava a logística.<br/> <br/>
@@ -295,8 +295,8 @@ export default function Carreira() {
                 <Image 
                   src={img16}
                   alt="Next.js Logo"
-                  width={200}
-                  height={250}
+                  width={220}
+                  height={220}
                 />
               </a>
               Aquele árduo empenho foi visto pelos meus lideres, fui colocado na parte administrativa para cobrir as férias de uma de nossas colaboradoras, ela realizava o controle de cubagem e aferição de qualidade dos produtos que chegavam, armazenava as devoluções e registrar tudo em nosso sistema para controle interno, além de também lidar diretamente com com o cliente do nosso setor, que no caso era a Mattel.<br/> <br/>
@@ -304,8 +304,8 @@ export default function Carreira() {
                 <Image 
                   src={img17}
                   alt="Next.js Logo"
-                  width={200}
-                  height={250}
+                  width={220}
+                  height={220}
                 />
               </a>
               Creio que essa foi uma das experiências mais intensas e transformadoras que tive como pessoa, ali pude aprender diversas coisas muito importantes na minha vida, como por exemplo o poder da influência, já que por ter vindo de baixo eu era amigo de todos meus colegas de trabalho, o que acabou retornando positivamente pra mim de uma forma inesperada quando passei para o setor administrativo. Ao descarregarem os produtos que chegavam eu ia até o container e pegava 1 item de cada SKU para fazer o controle interno, eles notaram essa movimentação e começaram a separar pra mim os itens antes de eu chegar, como uma forma de retribuir a boa amizade e a ajuda que eu ofereci a eles no começo, já que eu havia entrado antes e pude treiná-los quando chegaram.<br/> <br/>
@@ -314,8 +314,8 @@ export default function Carreira() {
                 <Image 
                   src={img18}
                   alt="Next.js Logo"
-                  width={250}
-                  height={250}
+                  width={220}
+                  height={220}
                 />
               </a>
 
@@ -337,8 +337,8 @@ export default function Carreira() {
                   <Image 
                     src={img19}
                     alt="Next.js Logo"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
               Eu foi o responsável pela criação do E-commerce devido a minha bagagem, desde UI até UX, desta vez eu estava colocando em prática tudo o que eu aprendi desde 2015, criá-lo foi como presenciar o nascimento de um filho do qual pude ensinar tudo o que aprendi, validado toda aquela bagagem e vivenciando resultados incríveis. Nós tínhamos iniciado com o caixa de R$2.000,00 e em 2 meses já tínhamos alcançado os R$50.000,00 faturados, toda a operação foi um sucesso total de validação e de muito aprendizado, mas como todo ciclo, esse também teve que chegar ao fim.<br/> <br/>
@@ -347,8 +347,8 @@ export default function Carreira() {
                   <Image 
                     src={img20}
                     alt="Next.js Logo"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
               Nós estávamos escalando um produto quando optamos por começar tudo novamente, embora aquela campanha ativa já estivesse sendo lucrativa e eficiente, ela poderia ser melhor otimizada para garantirmos uma maior longevidade, era simplesmente recomeçar com o caminho já pronto e apenas ajustar os detalhes, então seguimos desta forma e realizamos tudo o que era necessário para uma maior eficiência, o problema começou quando estávamos iniciando a escalando pela segunda vez, as métricas já estavam validadas e tudo estava perfeito para iniciarmos, então começamos a investir mais dinheiro na campanha conforme os resultados vinham, seguindo um fluxo natural de expansão. As métricas estavam fluindo a nosso favor, então começamos a investir mais dinheiro e as campanhas seguiram performando muito bem, até que depois de 1 semana recebemos um flag do facebook, alertando sobre métricas duplicadas. O resultado foi caótico, o meu foco nesse momento estava nas campanhas, o caixa era conferido a cada 1 semana e estava tudo normal na semana anterior, mas tudo desandou na semana seguinte quando estávamos investindo com mais força. Quando pausei as campanhas, eu fui verificar o caixa e percebi a falha, as métricas estavam se duplicando e aquilo consumiu quase todo o nosso caixa, nesse momento eu comuniquei o problema ao meu sócio e fui atrás de uma solução, para que assim a empresa pudesse ao menos voltar a respirar mesmo com todo aquele prejuizo. Peguei toda a lista de clientes que tinha comprado ou deixado carrinho em aberto e fiz uma campanha de e-mail marketing, usei o budget de custo por aquisição do produto para aplicar um desconto, já que nesse caso não estaria investindo nas campanhas, então usei aquela margem para fornecer um desconto considerável e conduzi os clientes por um funil de e-mail marketing, desta forma conseguimos levantar novamente 1 quarto do caixa que tínhamos.<br/> <br/>
@@ -356,8 +356,8 @@ export default function Carreira() {
                   <Image 
                     src={img21}
                     alt="Next.js Logo"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
               O meu sócio tinha aberto outra empresa no mesmo período que a Storm foi aberta, por isso nem ele sequer conseguiu ter tempo para me ajudar quando precisei e acabamos deixando isso passar batido, foi uma falha em conjunto, então quando aconteceu todo o problema percebemos que era fundamental que ele estivesse ali e optamos por encerrar aquele ciclo.<br/> <br/>
@@ -366,8 +366,8 @@ export default function Carreira() {
                   <Image 
                     src={img22}
                     alt="Next.js Logo"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
             </p>
@@ -387,8 +387,8 @@ export default function Carreira() {
                   <Image 
                     src={img23}
                     alt="Next.js Logo"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
               Passei 5 meses estudando dia e noite, respirando o mercado a cada segundo, aprendendo mais e mais a cada dia, tudo o que eu sabia era que em algum momento eu iria precisar daquele conhecimento no futuro, então busquei aprender como os maiores daquele mercado olhavam para aquilo, eu ainda permanecia no day trade pois era a modalidade que se encaixava no meu perfil de investidor, comprar ações e esperar o tempo passar nunca sequer me chamou a atenção, eu gostava de calcular os riscos e atingir as minhas metas diárias através das minhas análises do mercado, era como pegar um trem em movimento, uma única oportunidade bem aproveitada traziam resultados magníficos, isso era a transformação aplicada às peculiaridades que eu já tinha desde pequeno, como a paixão pelas aventuras e o alto senso crítico e analista, aquilo estava no meu sangue, eu respirava o mercado. A técnica que eu usava era baseada em acompanhar a movimentação de grandes fundos de investimentos e bancos, era como um tubarão andando junto com as baleias, esperando o momento certo para atacar. A minha leitura era feita do macro para o micro, eu analisava o movimento do mercado macro através de um gráfico renko e utilizava leitura de fluxo de ordens para transferir para o micro, desta forma conseguia analisar os movimentos antes mesmo que eles acontecessem no macro e entrar nas operações no micro, quando notava a movimentação dos big players colocando ordens a mercado, era como dançar com o caos.<br/> <br/>
@@ -397,8 +397,8 @@ export default function Carreira() {
                   <Image 
                     src={img24}
                     alt="Next.js Logo"
-                    width={200}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
             </p>
@@ -418,8 +418,8 @@ export default function Carreira() {
                   <Image 
                     src={img25}
                     alt="Next.js Logo"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
               O seu começo foi lento, pois nos meses anteriores, em um dos trabalhos informais que tive, eu pude presenciar de perto o caos que é gerado a partir da falha nos processos internos. O lugar em questão solicitou a minha ajuda para cuidar do atendimento ao cliente e organizar tudo, o que deu um certo trabalho, pois tive que criar um sistema do qual eu pudesse controlar todos os clientes em aberto em todas as etapas até a entrega do produto, além de cuidar dos clientes que estavam tendo problemas devido a falta de processos, já que até eu entrar não existia nenhum sistema e tudo era apenas em papel. Reconhecer o sofrimento diário dos clientes por aquele caos gerado me fez ter um cuidado ainda maior com os meus, então começamos a passos lentos para garantir uma boa estrutura antes de escalar a empresa.<br/> <br/>
@@ -428,8 +428,8 @@ export default function Carreira() {
                   <Image 
                     src={img26}
                     alt="Next.js Logo"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
               Embora o espírito da Storm vivesse ali, ainda faltava algo, ela havia nascido para se tornar uma grande empresa e de certa forma o seu espírito clamava por isso, então eu percebi que faltava algo, quando começamos a escalar percebi um padrão na consciência do mercado, a maioria das empresas estava completamente saturada da onda de agências que tivemos no passado, já que a maioria era amadora e fez com que 90% desse mercado criassem um má visão sobre aquilo, o que dava para ser corrigido, mas um dos princípios que aprendi com o mercado financeiro não me deixava caminhar naquela direção.<br/> <br/>
@@ -439,8 +439,8 @@ export default function Carreira() {
                   <Image 
                     src={img27}
                     alt="Next.js Logo"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
               No meu primeiro livro eu optei por falar sobre a experiência que tive no ano anterior, com o mercado financeiro, desta forma eu conseguiria levar isso para as pessoas e transformá-las através de uma ideia, aquele período me trouxe lições muito valiosas que podem ser aplicadas em diferentes áreas da vida, então eu queria compartilhar aquilo com as pessoas ao meu redor.<br/> <br/>
@@ -451,8 +451,8 @@ export default function Carreira() {
                   <Image 
                     src={img4}
                     alt="Next.js Logo"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
 
@@ -465,8 +465,8 @@ export default function Carreira() {
                   <Image 
                     src={img28}
                     alt="Next.js Logo"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                   />
                 </a>
               À partir desse hiperfoco eu pude perceber que que as minhas experiências anteriores e absolutamente tudo o que havia feito tinha me preparado para esse momento, essa era a minha volta para o setor Tech e a última peça a se encaixar, eu tinha masterizado tudo, agora poderia finalmente ajudar as empresas que estivessem buscando se transformar, enquanto isso desenvolveria os meus projetos em segundo plano e construindo bases sólidas para o meu futuro.<br/><br/><br/><br/>
@@ -474,8 +474,8 @@ export default function Carreira() {
                   <Image 
                     src={localImage}
                     alt="Next.js Logo"
-                    width={300}
-                    height={300}
+                    width={220}
+                    height={220}
                   />
                 </a><br/><br/>
             </p>

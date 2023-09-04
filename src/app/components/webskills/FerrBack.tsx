@@ -4,7 +4,7 @@ export function FerrBack(){
   return (
     <div>
       <a className='flex-box'>
-        <h2>Ferramentas Back-end:</h2>
+        <h2>Ferramentas Back-end</h2>
       </a>
       <div className='align-flex'>
         <p><SiDocker color="#0DB7ED" /> Docker</p>

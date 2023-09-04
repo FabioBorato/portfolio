@@ -5,7 +5,7 @@ export function Arqt(){
   return (
     <div>
       <a className='flex-box'>
-        <h2>Arquitetura e Design:</h2>
+        <h2>Arquitetura e Design</h2>
       </a>
       <div className='align-flex'>
         <p><FaShapes color="#8400ff" /> SOLID</p>

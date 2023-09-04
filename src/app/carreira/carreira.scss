@@ -49,6 +49,7 @@
 }
 
 .box-container {
+    width: 100vw;
     height: 71.5;
     display: grid;
     grid-template-columns: repeat(18, 1fr);
@@ -57,13 +58,13 @@
     margin: 0;
 }
 
-
-.box-2{
+.box-1{
     display:grid;
-    height:max-content;
+    height:min-content;
+    gap: 2rem 0rem;
     grid-column: 1 / span 18 ;
-    background-color: #fcfcfc;
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.219);
+    background-color: #fafafa;
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.219);
 }
 
 .row-box{
@@ -77,38 +78,18 @@
     justify-content: center;
 }
 
-.col-2-image-r{
-    display: grid;
-    grid-row: 2;
-    grid-column: 12 / span 6;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.col-2-content-l{
-    display: grid;
-    grid-row: 2;
-    grid-column: 1 / span 18 ;
-    grid-column: 2 / span 9;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-}
-
-.box-1{
-    display:grid;
-    height:min-content;
-    gap: 2rem 0rem;
-    grid-column: 1 / span 18 ;
-    background-color: #fafafa;
-    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.219);
-}
-
 .content{
     display:grid;
     grid-column: 3 / span 14 ;
     padding: 1.5rem;
     
+}
+
+@media (max-width:768px){
+    .content{
+        grid-column: 1 / span 18;
+        padding: 1.5rem;
+    }
 }
 
 .img-content{
@@ -122,7 +103,7 @@
 }
 
 
-h1 {
+.h1-style {
     font-family:sans-serif;
     font-weight: 600;
     color: #f8f8f8;
@@ -132,16 +113,9 @@ h1 {
     justify-content: center;
 
 }
-h2 {
-    font-family:sans-serif;
-    font-weight: 600;
-    color: #f8f8f8;
-    text-shadow: -1 -1 1px rgba(0, 0, 0, 0.801);
-    text-align: center;
 
-}
 
-h3 {
+.h3-style {
     font-family:sans-serif;
     font-weight: 400;
     color: #f8f8f8;
@@ -155,7 +129,6 @@ h3 {
 p {
     font-family: sans-serif;
     font-weight: 500;
- //   font-size: 18px;
     color: #333;
     text-align: center;
 }
@@ -163,14 +136,14 @@ p {
 .btn {
     background-color: #fcfcfcfc;
     border-radius: 24px;
-    width: 300px;
+    width: 60vw;
     padding: 12px;
     text-align: center;
     justify-content: center;
     text-decoration: none;
 
     font-weight: 600;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 30px;
     text-transform: uppercase;
     border: none;
