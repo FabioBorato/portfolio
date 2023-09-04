@@ -6,6 +6,7 @@ $degrade-body-colors: #df40ff, #b8fffb, #df40ff;
     display: grid;
     gap: 24px;
     justify-items: center;  
+    width: fit-content;
 
     grid-template-rows: repeat(7, auto);
     grid-template-areas: 
