@@ -2,7 +2,7 @@
 
 $degrade-body-colors: #df40ff, #b8fffb, #df40ff;
 .container {
-    padding: 40px 32px;
+    padding: 4vh 4vw;
     display: grid;
     gap: 24px;
     justify-items: center;  
@@ -15,6 +15,7 @@ $degrade-body-colors: #df40ff, #b8fffb, #df40ff;
     "about"
     "content"
     "webskills";
+    background-color: #b8fffb;
 }
 
 
