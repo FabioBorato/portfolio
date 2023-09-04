@@ -38,19 +38,20 @@ $degrade-body-colors: #df40ff, #b8fffb, #df40ff;
     justify-content: center;
 }
 
-.space-list{
-    margin-left: 2rem;
-}
-
 .re-size{
     text-align: center;
     justify-content:center;
-    width: 99%;
+    width: 98%;
     align-items: center;
     justify-items: center;
 }
 
-
+@media (max-width:768px){
+    .re-size{
+        width: 92%;
+        margin-left: 4%;
+    }
+}
 
 .title-flex{
     display:flex;
