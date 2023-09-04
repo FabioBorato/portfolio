@@ -80,7 +80,7 @@ $degrade-body-colors: #df40ff, #b8fffb, #df40ff;
         animation: degrade-animado 15s infinite alternate;
         background-size: 500% 100%;
         border-radius: 24px;
-        width: 300px;
+        width: 55vw;
         padding: 12px;
         text-align: center;
         justify-content: center;
@@ -97,6 +97,12 @@ $degrade-body-colors: #df40ff, #b8fffb, #df40ff;
         align-items: center;
         gap: 20px;
         justify-content: center;
+    }
+
+    @media (min-width: 768px) {
+        .btn-primary {
+            width: 300px;
+        }
     }
 }
 
