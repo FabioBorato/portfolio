@@ -28,6 +28,12 @@
   margin: 0;
   -webkit-tap-highlight-color: transparent;
   user-select: none;
+    p {
+    user-select: text;
+    }
+    strong {
+    user-select: text;
+    }
 }
 
 html,
