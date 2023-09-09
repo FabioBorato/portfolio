@@ -13,7 +13,6 @@ export function TechFront() {
         <p><FaJs color="#f0db4f" /> Regex</p>
         <p><FaProjectDiagram color="#8400ff" /> Redux Saga</p>
         <p><FaObjectGroup color="#8400ff" /> Axios</p>
-        <p><FaLaptopCode color="#f0db4f" /> Regex</p>
       </div>
     </div>
   );

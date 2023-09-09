@@ -105,7 +105,9 @@ $degrade-body-colors: #df40ff, #b8fffb, #df40ff;
         }
     }
 }
-
+.btn-primary:focus {
+    outline: none;
+}
 .center{
     text-align: center;
     align-items: center;
