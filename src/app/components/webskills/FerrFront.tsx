@@ -14,9 +14,6 @@ export function FerrFront () {
         <p><SiWebpack color="#1C78C0" /> Webpack</p>
         <p><SiBabel color="#F9DC3E" /> Babel</p>
         <p><FaCheckCircle color="#F9DC3E" /> Regenerator</p>
-        <p><SiHtml5 color="#E44D26" /> HTML5</p>
-        <p><SiCss3 color="#2965F1" /> CSS3</p>
-        <p><SiSass color="#CD6799" /> SCSS (SASS)</p>
       </div>
     </div>
   );
