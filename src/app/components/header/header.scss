@@ -22,7 +22,7 @@
         display: grid;
         gap: 12px;
         grid-template-columns: 10rem minmax();
-        grid-template-rows: 15rem 15rem;
+        grid-template-rows: 15rem 14rem;
         align-items: center;
         margin-top: -4rem;
         margin-bottom: -4rem;
@@ -31,7 +31,8 @@
         .image-position{
             grid-column: 1;
             grid-row: 1 / span 2;
-            margin-top: 2rem;
+            margin-top: 3.5rem;
+            margin-right: 1rem;
         }
 
         .title-position{
@@ -39,7 +40,6 @@
             grid-row: 1;
             margin-bottom: -8rem;
             margin-left: 0.5rem;
-
         }
 
         .bttn-position{
@@ -50,12 +50,12 @@
         }
 
         h1 {
-            font-size: 32px;
+            font-size: 30px;
             line-height: 54px;
         }
 
         h2 {
-            font-size: 24px;
+            font-size: 22px;
             line-height: 45px;
             font-style: normal;
         }

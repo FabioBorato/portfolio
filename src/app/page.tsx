@@ -15,6 +15,7 @@ export default function Home() {
           <div className='h-position'>
             <Header/>   
           </div>
+          <hr/>
           <div className='i-position'>
             <Info/>
           </div>
@@ -26,8 +27,8 @@ export default function Home() {
           </div>
 
         </div>
-
       </div>
+      <a className='footer'></a>
     </main>
   )
 }
