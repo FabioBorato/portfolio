@@ -6,7 +6,7 @@ export function FrameWorks() {
   return (
     <div>
       <a className='flex-box'>
-        <h2>Frameworks</h2>
+        <h2>Frameworks & Libraries</h2>
       </a>
       <div className='align-flex'>
       <p><FaReact color="#61dafb" /> React</p>
